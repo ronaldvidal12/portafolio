@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<title>Formulario</title>
+</head>
+<body>
+<form action="https://formspree.io/f/xleveekl" method="POST">
+ <center><h1>Formulario Liceo Comercial El Pilar</h1></center>
+
+<center><h3>A través de este formulario puedes enviar un mensaje para ayudar a corregir errores o mejorar el blog. Cualquier cosa que tengas para decir es bienvenida, así que no lo dudes y déjame un mensaje. Estaré feliz de contestarte!</h3></center>
+
+  <fieldset>
+
+    <legend><h3>Ingrese sus datos personales</h3></legend>
+
+    <p><label>Ingresa tu nombre: <input style="width: 200px;" type="text" name="Nombre" required></label></p>
+
+    <p><label>Ingresa tu apellido:  <input style="width: 200px;" type="text" name="Apellido" required></label></p>
+
+    <p><label>Ingresa tu correo: <input style="width: 200px;" type="email" name="Email" required></label></p>
+
+
+    Género:
+
+    <select name="Genero">
+
+      <option>Masculino</option>
+
+      <option>Femenino</option>
+
+      <option>Otro</option>
+
+    </select>
+    <br>
+    <br>
+    Eres un:
+    <br>
+    <br>
+
+    <input type="radio" name="Estatus" value="Estudiante"> Estudiante
+    <br>
+    <input type="radio" name="Estatus" value="Profesor"> Profesor
+    <br>
+    <input type="radio" name="Estatus" value="Apoderado"> Apoderado
+    <br>
+    <input type="radio" name="Estatus" value="otro"> Otro
+    <br>
+
+  </p>
+
+  </fieldset>
+
+  <fieldset>
+
+    <legend><h3>Asunto</h3></legend>
+
+    <p>
+
+      <h4>¿Elija un o los temas que te gustaría solicitar?</h4>
+
+      <label><input type="checkbox" name="Asunto" value="Consulta"> Consulta</label><br>
+
+      <label><input type="checkbox" name="Asunto" value="Error"> Informar de algun error</label><br>
+
+    </p>
+
+    <p>
+      <center><h4>Descripción (Opcional)</h4>
+      
+
+    <label>
+    <textarea style="width: 800px; height: 200px;" name="Mensaje"></textarea>
+    </label>
+    </center>
+
+    </p>
+
+  </fieldset>
+
+  <p>
+    <center>
+
+      <button type="submit" class="cssbuttons-io-button"> Enviar Formulario
+  <div class="icon">
+    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+  </div>
+</button>
+</center>
+
+  
+<button type="reset" class="boton" class="noselect"><span class="text">Borrar datos</span><span class="icono"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"></path></svg></span></button>
+    
+
+
+
+
+  
+  </p>
+
+</form>
+
+
+</body>
+
+</html>

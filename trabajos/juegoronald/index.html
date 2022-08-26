@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Juego</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<script src="https://kit.fontawesome.com/a174515253.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+
+	<header id="main-header">
+		<h1><center>Bienvenido a mi juego "<script src="js/name.js"> </script>"</center></h1>
+		<p id="nombre"></p>
+
+		<div class="puntaje">
+			<center>Puntaje:<h3 id="counter-label">0</h3></center> 
+
+		</div>
+	</header>
+
+
+	<div class="pregunta-1">
+
+		<h1><center>La siguiente figura ¿es un?</center></h1>
+		<center><i class="fa-solid fa-caret-up"></i></center>
+		<br>
+		<center>
+		<button onclick="disminuir()">Cuadrado</button>
+		<button onclick="disminuir()">Circulo</button>
+		<button onclick="aumentar()">Triangulo</button>
+		<button onclick="disminuir()">Rombo</button>
+		</center>
+		<hr>
+
+	</div>
+
+	<div class="pregunta-2">
+
+		<h1><center>La siguiente figura ¿es un?</center></h1>
+		<center><i class="fa-solid fa-circle"></i></center>
+		<br>
+		<center>
+		<button onclick="disminuir()">Cuadrado</button>
+		<button onclick="aumentar()">Circulo</button>
+		<button onclick="disminuir()">Triangulo</button>
+		<button onclick="disminuir()">Rombo</button>
+		</center>
+		<hr>
+
+	</div>
+
+    <div class="pregunta-3">
+
+		<h1><center>La siguiente figura ¿es un?</center></h1>
+		<center><i class="fa-solid fa-square-full"></i></center>
+		<br>
+		<center>
+		<button onclick="aumentar()">Cuadrado</button>
+		<button onclick="disminuir()">Circulo</button>
+		<button onclick="disminuir()">Triangulo</button>
+		<button onclick="disminuir()">Rombo</button>
+		</center>
+		<hr>
+
+	</div>
+
+    <div class="pregunta-4">
+
+		<h1><center>La siguiente figura ¿es un?</center></h1>
+		<center><i class="fa-solid fa-diamond"></i></center>
+		<br>
+		<center>
+		<button onclick="disminuir()">Cuadrado</button>
+		<button onclick="disminuir()">Circulo</button>
+		<button onclick="disminuir()">Triangulo</button>
+		<button onclick="aumentar()">Rombo</button>
+		</center>
+		<hr>
+
+	</div>
+
+	<script src="js/contador.js"></script>
+
+</body>
+</html>

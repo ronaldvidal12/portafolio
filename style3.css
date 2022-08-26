@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.container{
+	height: 100vh;
+	display: flex;
+
+}
+
+.inicio{
+	width: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.inicio-datos{
+	margin-bottom: 30px;
+
+}
+
+.inicio-datos span{
+	font-size: 30px;
+	color: red;
+}
+.inicio-datos p{
+	font-size: 15px;
+	color: #fff;
+}
+
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	margin: 15px 0;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: red;
+}
+.colorred{
+	color: red;
+}
+.portada{
+	width: 100%;
+	background: linear-gradient(
+		rgba(0,0,0,.3),
+		rgba(0,0,0,.1)), url(img/.jpg);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+}
+.portada h1{
+	font-size: 68px;
+	color: #ec2F4B;
+}
+
+.portada p{
+	font-size: 32px;
+	color: #fff;
+}
